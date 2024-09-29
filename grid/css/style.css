@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 0.5fr 1fr 2fr 1fr;
+  overflow: auto;
+}
+
+.item1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 1.7vw;
+  padding: 1vw;
+  background-color: #fdd;
+  border: 0.1vw solid #000000;
+  overflow: hidden;
+}
+
+.item2 {
+  grid-column: 2 / 5;
+  grid-row: 1 / 2;
+  min-height: 8vw;
+  background-color: #d0e7ff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: justify;
+  font-size: 1.6vw;
+  padding: 2vw;
+  border: 0.1vw solid #000000;
+  overflow: hidden;
+}
+
+.item3 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  background-color: #e5f2c9;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  padding: 0 2vw;
+  font-size: 1.2vw;
+  border: 0.1vw solid #000000;
+}
+
+.item4 {
+  grid-column: 4 / 5;
+  grid-row: 2 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2vw;
+  font-size: 1.5vw;
+  background-color: #dff0d8;
+  border: 0.1vw solid #000000;
+  overflow: hidden;
+}
+
+.item4 ol {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4vw;
+}
+
+.item5 {
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  background-color: #ffffff;
+  min-height: 13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 1.1vw;
+  padding: 1vw;
+  border: 0.1vw solid #000000;
+  overflow: hidden;
+}
+
+.item5 img {
+  align-self: center;
+  max-width: 50vw;
+  max-height: 30vh;
+  height: auto;
+  padding-right: 1vw;
+}
+
+.item6 {
+  grid-column: 1 / 5;
+  grid-row: 5 / 6;
+  min-height: 7vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0 2vw;
+  font-size: 1.5vw;
+  background-color: #d0e7ff;
+  border: 0.1vw solid #000000;
+}
+
+.item6 ul {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 7vw;
+}
+
+.item6 a {
+  text-decoration: none;
+}
+
+.x {
+  min-width: 7vw;
+  height: 2vw;
+  width: auto;
+  align-self: center;
+  margin-left: 2vw;
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3vw;
+  border: 0.1vw solid #000000;
+  background-color: white;
+}
+
+.y {
+  min-width: 7vw;
+  height: 2vw;
+  width: auto;
+  margin-right: 20vw;
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3vw;
+  border: 0.1vw solid #000000;
+  background-color: white;
+}
+
