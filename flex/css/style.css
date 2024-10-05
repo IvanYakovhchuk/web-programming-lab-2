@@ -109,12 +109,14 @@ body {
 }
 
 .list ol{
-  padding-left: 3vw;
+  padding: 3vw;
+  padding-left: 7vw;
 }
 
 .footer{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   flex: 1;
   font-size: 1.5vw;
@@ -130,7 +132,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1vw;
-  margin-right: 15vw;
   margin-left: 5vw;
   font-size: 1.3vw;
   background-color: #ffffff;
@@ -138,18 +139,14 @@ body {
   border: 0.1vw solid #000;
 }
 
-.references{
-  display: flex;
-  right: 100%;
-}
-
 .references ul{
   list-style: none;
+  padding-right: 2vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 7vw;
+  gap: 2vw;
 }
 
 .references a{
