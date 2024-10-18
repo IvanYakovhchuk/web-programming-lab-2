@@ -260,7 +260,7 @@ body {
   }
 
   .left, .right {
-    flex-basis: 50%;
+    /*flex-basis: 50%;*/
     box-sizing: border-box;
   }
 
